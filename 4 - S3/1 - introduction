@@ -1,0 +1,76 @@
+S3 - Simple Storage Service
+
+  S3 provides developers and IT teams with secure, durable, highly-scalable object storage.
+  Easy to use, simple web interface to store and retrieve any amount of data from anywhere.
+
+  Safe place to store your files.
+  It's object-based storage.
+  The data is spread across multiple plataform and facilities.
+
+The Basics:
+  - Object Based - i.e: allows to upload files
+  - Files: 0 Bytes - 5 Terabytes
+  - Unlimited Storage
+  - Fires storage in Buckets
+  - S3 is a universal namespace. Names must be unique globally
+  - When upload a file in, returns HTTP 200 code.
+  - 99,99% Availability for S3 plataform
+  - 99,9% Amazon garantee
+  - 99,99999999999% durability (11x9s)
+  - Tiered Storage Available
+  - Lifecycle Management
+  - Versioning
+  - Encryption
+  - Secure: ACLs and Bucket Policies
+  -   
+
+Data Consistency Model for S3
+
+https://acloud.guru/forums/aws-certified-solutions-architect-associate/discussion/-KIKjWassZl_XuP45sZn/s3-consistency-model-question
+
+  - Read after write consistency for PUTS of new Objects
+  - Eventual Consistency for overwrite PUTS and DELETE (can take sometimes to propagates)
+
+Simple Key-Value store
+  - Object consists:
+    - Key (name of the object)
+    - Value (data)
+    - Version ID  
+    - Metadata (Data about data)
+    - Subresources:
+      - ACL (Access Control List)
+
+Storage Classes:
+  - Standard: 
+    - 99,99% Availability
+    - 99,99999999999% durability
+    - Storage across multiple devices
+    - frequently access
+
+  - IA (Infrequently Access):
+    - 99,99% Availability
+    - 99,99999999999% durability
+    - Lower fee than the S3, but you charged a retrieval fee
+    - Infrequently access
+
+  - One Zone IA:
+    - Equals IA
+    - Single Az 
+
+  - Glacier:
+    - Very cheap
+    - Used only archivied
+    - wait 3 - 5 hours before access
+
+Charged:
+  - Storage
+  - Requests
+  - Storage Management Pricing
+  - Data Transfer Pricing
+
+Transfer Acceleration
+  Fast, Easy and Secure transfer data over long distances between your end user and an Bucket
+  Transfer Acceleration takes advantage of Amazon CloudFront's globally distribuited edge locations.
+  As data arrives at an edge location, data is routed to Amazon S3 over optimized network path
+
+

@@ -1,0 +1,9 @@
+https://docs.aws.amazon.com/AmazonS3/latest/dev/ObjectVersioning.html
+
+Versioning 
+  - Store all versioning of an object
+  - Great backup tool
+  - Once enabled, versioning cannot disabled, only suspended
+  - Integrate with Lifecycle Rules
+  - Versioning MFA Delete Capability, which uses multifactory authentication.
+  

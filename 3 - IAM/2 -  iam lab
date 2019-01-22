@@ -1,0 +1,10 @@
+What have we learn ?
+
+  - IAM is universal (Global Service). Not apply to regions at this time
+  - Root Account is simply the first account create when first set up your AWS account. Has Full Admin Access
+  - New Users haven't permissions when first created
+  - New Users are assigned with Access Key and Secret Key when first created
+  - Access Key and Secret Key can not allow you to login in to the console. You can access AWS via, API and CLI
+  - Access Key and Secret Key you only get view these once. If you lose, you must regenerate them. 
+  - Always setup Multfactor Authentication on your root account
+  - You can create customized password rotation policy 

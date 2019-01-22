@@ -1,0 +1,17 @@
+https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-what-is-isnot-replicated.html
+
+https://aws.amazon.com/answers/infrastructure-management/crr-monitor/
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-add-config.html
+
+https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
+
+Cross Region Replication (CRR)
+
+  - Versioning must be enabled on both resouces
+  - Regions must be unique
+  - Files are not replicated automatically. All subsequente files are updated.
+  - Cannot replicated to multiple buckets
+  - Delete individual versions or delete marked will not be replicated
+
+
