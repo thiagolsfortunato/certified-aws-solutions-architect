@@ -1,0 +1,29 @@
+Storage Gateway:
+  - Service that connects an on-primises software appliance with cloud-based storage.
+  - The service enable you to securely store data to the AWS cloud for scalable and cost-effective storage.
+  - Available to download as a VM image that you can install on a host in your datacenter, suports Hyper-V and VMWare ESXi.
+  Once installed your gateway and associate with your AWS account through the activation process, you can use the AWS Console
+  to create the Storage Gateway.
+
+Types:
+  - File Gateway:
+    - Files storage in S3 Bucket, accessed through Network File System (NFS) mount point.
+    - Ownership, permissions in the user-metadata of the object associated with a file.
+    - After transfered to S3, you can management using S3 Policies such versioning, lifecycle and cross-region replication.
+  
+  - Volumes Gateway:
+    - Volume interface presents your applications with disks volumes using iSCSI block protocol.
+    - Data writen can be asynchronously backed up as point-in-time snapshots of your volumes, and stored in the cloud as
+    Amazon EBS snapshots
+    - Snapshots are incremental backups that capture only changed blocks. All snapshot storage are compressed to minimize 
+    your storage charges.
+  
+  - Volumes Gateway - Stored Volumes:
+    - Allow to store primary data locally, while asynchronously backing up data to AWS.
+    - Stored Volumes provide your on-premisse applications low-latency access to their entire datasets, while provide durable,
+    off-site backups.
+    - Can create Storage Volumes and mount them as iSCSI devices from your on-premisses storage hardware.
+    - This data is asynchronously backed up to S3 in the form of EBS snapshots.
+    - 1GB until 16TB in size for Stored Volumes
+
+    
