@@ -1,0 +1,34 @@
+Snowball
+ - Petabyte-scale data transport solution that uses secures appliances to transfer large amounts of data into and out of AWS.
+ - Using Snowball addresses common challenges whith large-scale data transfers including high network cost, long transfer time, 
+ and security concerns.
+ - Transfer data is simple, fast, secure, and can be as little as one-fifth the cost of high-speed internet.
+ - 80TB in all regions
+ - Multiple layers of security:
+  - Tamper-resistant enclosures
+  - 256-bit encryption
+  - Industry-standard Trusted Plataform Module (TPM)
+  - Once the data transfer job has processed and verified
+
+Snowball-Edge
+  - 100TB data transfer device with on-board storage and compute capabilities.
+  - Use to move large amounts of data into and out of AWS, as a temporary storage tier for large local datasets or to support
+  local workloads in remote or offline locations
+  - Connect to your existing applications and infrastructure using standard storage interfaces, streamilining the data transfer
+  process and minimizing setup integration.
+  - Can Cluster together to form a local storage tier and process your data on premisses, helping ensure your applications
+  to continue run even when they are not able to acces the cloud
+
+Snowmobile
+  - Exabyte data transfer service used to move extremely large amounts of data to AWS
+  - Can transfer 100PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by semi-trailer truck
+  - Make easy to move volumes of data, including video libraries, image repositories, or even a complete data center migration
+  - Secure, fast and cost effective
+
+Exams Tips:
+  - Understand what Snowball is
+  - Understand what import export is
+  - Snowball can
+    - import to S3
+    - export from S3
+     
