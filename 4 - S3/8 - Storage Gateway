@@ -18,12 +18,30 @@ Types:
     - Snapshots are incremental backups that capture only changed blocks. All snapshot storage are compressed to minimize 
     your storage charges.
   
-  - Volumes Gateway - Stored Volumes:
-    - Allow to store primary data locally, while asynchronously backing up data to AWS.
-    - Stored Volumes provide your on-premisse applications low-latency access to their entire datasets, while provide durable,
-    off-site backups.
-    - Can create Storage Volumes and mount them as iSCSI devices from your on-premisses storage hardware.
-    - This data is asynchronously backed up to S3 in the form of EBS snapshots.
-    - 1GB until 16TB in size for Stored Volumes
-
+    - Stored Volumes:
+      - Allow to store primary data locally, while asynchronously backing up data to AWS.
+      - Stored Volumes provide your on-premisse applications low-latency access to their entire datasets, while provide durable,
+      off-site backups.
+      - Can create Storage Volumes and mount them as iSCSI devices from your on-premisses storage hardware.
+      - This data is asynchronously backed up to S3 in the form of EBS snapshots.
+      - 1GB until 16TB in size for Stored Volumes
     
+    - Cache Volumes:
+      - Using S3 as your primary data storage while retain frequently accessed data locally in your Storage Gateway.
+      - Minimize the need to scale your on-premisse storage infrastructure, while provides your low-latency access for
+      frequently accessed data. 
+      - You can create Storage Volume up to 32TiB and attach to them as iSCSI from your on-premisse application servers.
+      - Your Gateway write data to theses volumes in S3 and retains recently read data in your on-premisse storage gateway Cache
+      and upload buffer storage.
+      - 1GB until 32TB in size for Cached Volume
+
+  - Gateway Virtual Tape Library (VTL):
+    - Durable, cost-effective solution to archive your data.
+    - The VTL interface provides lets you improve your existing tape-based backup application infrastructure to store
+    data on virtual tapes that you create your tape gateway.
+    - Each Virtual Tape is preconfigured with media changer and tapes drives, which are available to your existing client
+    backup application as iSCSI devices.
+    - You can add tape cartridges as you need to archive your data.
+    - Supported by NetBackup, Backup Exec, Veeam etc..
+
+    -  
