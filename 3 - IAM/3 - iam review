@@ -5,6 +5,18 @@ Groups
 Roles
 Policies
 
+Whast differences between IAM Users and IAM Roles ?
+
+The primary purpose of an IAM User is for authentication - proving to AWS that you are who you say you are. Once a user is authenticated, 
+they generally should be given permissions by being added to one or more Groups - Polices (which contain the permissions) are assigned to Groups,
+ and Users are made members of Groups.
+Roles work very differently. Policies can be assigned to Roles, just as they are assigned to Groups - but Roles are not Groups.
+Roles are like a mask or a badge that we apply to other, authenticated, security principals who want to access resources in our account. These 
+other principals - or Trusted Entities, as they are referred to when configuring a Role - dont have an IAM User in our AWS account, so we can't add 
+them to any of our Groups. The policies/permissions assigned to the Role are inherited by the Trusted Entity that the Role has been applied to.
+Unlike the many-to-many relationship between Users and Groups, only one Role may be applied to a Trusted Entity at a time. If a Role is applied to 
+an IAM User's connection to AWS, the Role permissions override any other permissions the User would normally have.
+
 
 https://aws.amazon.com/about-aws/whats-new/2017/12/aws-free-tier-usage-alerts-automatically-notify-you-when-you-are-forecasted-to-exceed-your-aws-service-usage-limits/
 
