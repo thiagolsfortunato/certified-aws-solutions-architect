@@ -2,10 +2,14 @@ High Level Services: Picture
 
 Global Infraestructure
 
-  - 19 Regions (2018, +5 2019)
-  - 57 Availability Zones (2018, +15 2019)
-
-  - Region: Geographical Area, each region consists of 2 (or more) AZs
-  - AZ: data centers
-  - Edge Locations: Endpoints using by AWS to caching content. CloudFront, Amazon's Content Delivery Network (CDN)
+  - 19 Regions: Geographical Area, each region consists of 2 (or more) AZs (2018, +5 2019)
+  - 57 Availability Zones == data centers (2018, +15 2019)
+  - 150 Edge Locations: Endpoints using by AWS to caching content. CloudFront, Amazon's Content Delivery Network (CDN)
   
+What do you need know to pass in the exam?
+
+  - AWS Global Infraestructure
+  - Security, Identity and Compliance
+  - Compute (EC2)
+  - Storage (Volumes, S3)
+  - Databases (RDS, DynamoDB)
