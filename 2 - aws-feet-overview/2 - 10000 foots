@@ -13,3 +13,30 @@ What do you need know to pass in the exam?
   - Compute (EC2)
   - Storage (Volumes, S3)
   - Databases (RDS, DynamoDB)
+
+6 Advantages of Cloud Computing
+https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/six-advantages-of-cloud-computing.html
+
+Global Infraestructure
+https://aws.amazon.com/about-aws/global-infrastructure/
+
+Regions and AZs
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+
+VPC
+https://aws.amazon.com/vpc/
+
+EC2
+https://aws.amazon.com/ec2/
+
+RDS
+https://aws.amazon.com/rds/
+
+EFS
+https://aws.amazon.com/efs/
+
+S3
+https://aws.amazon.com/s3/
+
+CloudFront
+https://aws.amazon.com/cloudfront/
