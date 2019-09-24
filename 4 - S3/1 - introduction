@@ -9,6 +9,28 @@ What is s3?
   It's object-based storage.
   The data is spread across multiple plataform and facilities.
 
+Exam Tips:
+  - Remember that s3 is Object-based: i.e allows you to upload a file;
+  - Files can be 0 Bytes to 5 TB; 
+  - There is unlimited storage;
+  - Files are stored in Buckets;
+  - S3 is universal namespace. That is, names must be unique globally;
+  - link: https://s3-<region>.amazonaws.com/<bucket-name>;
+  - Not suitable to install SO on;
+  - Success upload returns 200 status code;
+  - Can turn on MFA for Delete object;
+  - Object consists:
+    - Key (name of the object)
+    - Value (data)
+    - Version ID  
+    - Metadata (Data about data)
+    - Subresources:
+      - ACL (Access Control List)
+      - Torrents
+  - Read after write consistency for PUTS of new Objects;
+  - Eventual Consistency for overwrite PUTS and DELETE (can take some time to propagates);
+  - Storage Classes
+
 The Basics:
   - Object Based - i.e: allows to upload files
   - Files: 0 Bytes - 5 Terabytes
@@ -66,7 +88,7 @@ Storage Classes:
   - Glacier:
     - Very cheap
     - Used only archivied
-    - wait 3 - 5 hours before access
+    - Retrieval from minutes to hours before access
 
   - Galcier Deep archive
     - lowest cost
@@ -77,10 +99,14 @@ Charged:
   - Requests
   - Storage Management Pricing
   - Data Transfer Pricing
+  - Transfer Acceleration
+  - Cross Region Replication Pricing
+
+Cross Region Replication
+  Replication from regions in AWS, It's like a mirror from a origin bucket.
 
 Transfer Acceleration
   Fast, Easy and Secure transfer data over long distances between your end user and an Bucket
   Transfer Acceleration takes advantage of Amazon CloudFront's globally distribuited edge locations.
   As data arrives at an edge location, data is routed to Amazon S3 over optimized network path
-
 
