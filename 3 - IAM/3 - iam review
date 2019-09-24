@@ -21,3 +21,6 @@ an IAM User's connection to AWS, the Role permissions override any other permiss
 https://aws.amazon.com/about-aws/whats-new/2017/12/aws-free-tier-usage-alerts-automatically-notify-you-when-you-are-forecasted-to-exceed-your-aws-service-usage-limits/
 
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html
+
+Job Function:
+https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html
