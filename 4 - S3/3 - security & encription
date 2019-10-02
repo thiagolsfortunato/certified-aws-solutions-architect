@@ -9,6 +9,9 @@ Security & Encription
       - AWS Keys Management Service, Managed Keys - SSE-KMS
       - Server Side Encription With Customer Provided Keys - SSE-Control
     - Client Side Encription
+      - Encrypt a object in your pc and upload to bucket
+  - Lab:
+    - to encrypt a object, select encrypt mode and chose AES or AWS KMS.
 
 - Security:
   - by default all newly bucket are PRIVATE
