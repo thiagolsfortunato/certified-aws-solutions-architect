@@ -1,8 +1,14 @@
 Lifecycle Rules
 
+  - Automates moving your objects between the differents storages ties
   - Can be used in conjunction with versioning
   - Can be applied to current version and previous versions
   - Following actions can now be done:
     - Transaction to the Standard Infrequent Access Storage Classe: 30 days after the creation date
     - Archive to the Glacier Storage Class: 30 days after the Standard-IA
     - Permanently Delete   
+  
+  Lab:
+    - Create a Lifecycle rule to current and previous version
+    - Define experation time to both
+    
