@@ -3,13 +3,15 @@ https://aws.amazon.com/cloudfront/features/
 Cloud Front - Content Delivery Network - CDN
   - System of distributed servers (network) that delivery webpages and others web contents to a user
   base on the geographic location of the user, the origin of the webpage and a content delivery server.
+  - Can be used to delivery your entire website, including dynamic, static, streaming, and interactive content
+  using a global network of edge location. Requests for your content are automatically route to nearest edge location
+  so content is delivery with the best possible performance 
 
   Edge Location:
-    - Location where content will be cached. This is separeted to an AZ
-    - Is not read-only, can write (ie: put object on to them)
+    - Location where content will be cached. This is separeted to an Region/AZ
+    - Is not read-only, can write (ie: put object on to them using Transfer Acelaration)
     - Objects are cached for the life of the TTL (Time to Live)
     - You can be clear cached objects, but will be charged
-    - 
 
   Origin:
     - Origin of all files that CDN will distribute. Can be either S3, an EC2, Load Balancer, or Route53
