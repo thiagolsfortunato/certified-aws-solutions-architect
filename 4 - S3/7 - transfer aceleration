@@ -1,0 +1,4 @@
+Transfer Aceleration
+
+- Utilises to the Cloudfront Edge Network to accelerate upload to S3
+- Instead of uploading directly to bucket, you will use distinct URL to an Edge Location wich will the transfer to S3. (bucket-name.s3.accelerate.amazonaws.com)
