@@ -1,10 +1,17 @@
+https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html
+
+https://aws.amazon.com/solutions/cross-region-replication-monitor/
+
+https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
+
 https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-what-is-isnot-replicated.html
 
 https://aws.amazon.com/answers/infrastructure-management/crr-monitor/
 
 https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-add-config.html
 
-https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
+https://media.acloud.guru/aws-csa-2019/resource/e7893034-7c60-cace-3aeb-522a49a2fd40_1f57c739-412a-c3cd-55fb-2632fab8530a/aws-csa-2019-0c03321a-1ba4-4825-803f-e90c9bd7929d.pdf?Expires=1570271164&Signature=PlfdfI0VWj1rgSSZwFlch63BVdUeFuS1gcOAg3lcXMRYU2hnL7UZGeXZ0Gfkr4z/sZAcY3+UjZS8iP+1j95ZtckpAvnmKSrvk4Bes6J0s2ABQAkadSb1zYDOsPZgrzzMy3khZPcuT9iwxjSgaw4aVd8393q7R+ZNHklftL9tqwbuzglSMuzwtIOd1QYVDBaWKrpwDkEOpUSCJFFMGoFXCGLFrUaS1R5bDvOmc22+7molRn8AGprZUR3QoDcYEI9MOKd2HmlrwawipcsvjpVRdsbZYkfHXVv4JUTvVHciIMj4B/vlbz9bV+Ghc1R56aXvovDB+yV9VXa16dO87Ud2rA==&Key-Pair-Id=APKAISLU6JPYU7SF6EUA
+
 
 Cross Region Replication (CRR)
 
@@ -13,5 +20,3 @@ Cross Region Replication (CRR)
   - Files are not replicated automatically. All subsequente files are updated.
   - Cannot replicated to multiple buckets
   - Delete individual versions or delete marked will not be replicated
-
-
