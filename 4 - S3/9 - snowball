@@ -5,10 +5,11 @@ Snowball
  - Transfer data is simple, fast, secure, and can be as little as one-fifth the cost of high-speed internet.
  - 80TB in all regions
  - Multiple layers of security:
+  - Comes 50TB to 80TB
   - Tamper-resistant enclosures
   - 256-bit encryption
   - Industry-standard Trusted Plataform Module (TPM)
-  - Once the data transfer job has processed and verified
+  - Once the data transfer job has processed and verified, AWS perform a software to ensure of Snowball appliance.
 
 Snowball-Edge
   - 100TB data transfer device with on-board storage and compute capabilities.
