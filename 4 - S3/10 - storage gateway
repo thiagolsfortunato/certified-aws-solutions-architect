@@ -44,4 +44,9 @@ Types:
     - You can add tape cartridges as you need to archive your data.
     - Supported by NetBackup, Backup Exec, Veeam etc..
 
-    -  
+  Exam Tips:
+    - File Gateway: for flat files, store directly on S3;
+    - Volume Gateway:
+      - Stored Volumes: Entire dataset is stored on site and asynchronously backed up to s3;
+      - Cache Volumes: Entire dataset is stored on s3 and the most frequently accessed data is cached on site;
+      
